@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &102678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 431670}
+  - component: {fileID: 11416346}
+  m_Layer: 0
+  m_Name: SdkboxPlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431670
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11416346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f521c503c4a704b088bc0773a83f8f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    leaderboards:
+    - id: CgkIzcaQ4toUEAIQAw
+      name: ldb1
+    achievements:
+    - id: CgkI0sux8sMWEAIQAg
+      name: ten-games
+      incremental: 0
+    debug: 0
+    connect_on_start: 1
+  callbacks:
+    onConnectionStatusChanged:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+IntEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onScoreSubmitted:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+ArgsEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onMyScore:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntIntLongEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onMyScoreError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntIntErrorEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onPlayerCenteredScores:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntIntStringEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onPlayerCenteredScoresError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntIntErrorEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onIncrementalAchievementUnlocked:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onIncrementalAchievementStep:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onIncrementalAchievementStepError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntErrorEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onAchievementUnlocked:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringBoolEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onAchievementUnlockError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringErrorEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onAchievementsLoaded:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+BooleanStringEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onSetSteps:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onSetStepsError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringIntErrorEvent, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    onReveal:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    onRevealError:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: Sdkbox.sdkboxplay+Callbacks+StringErrorEvent, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 102678}
+  m_IsPrefabParent: 1
